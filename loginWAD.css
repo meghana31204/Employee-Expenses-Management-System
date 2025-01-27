@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #C4DAD2;
+    font-family: "Montserrat", system-ui;
+    color: #4A4A4A;
+}
+.main .loginform {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+.main .loginform h2 {
+    text-align: center;
+    font-size: 60px; 
+}
+.main .loginform input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.main .loginform button {
+    width: 100%;
+    padding: 10px;
+    background-color: #C4DAD2;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.main .loginform button:hover {
+    background-color: #16423C;
+    color: white;
+}
+.main .loginform a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+.main .loginform a:hover {
+    text-decoration: underline;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}

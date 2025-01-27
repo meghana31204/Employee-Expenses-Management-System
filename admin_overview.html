@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overview - Admin Dashboard</title>
+    <link rel="stylesheet" href="admin_overview.css">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="admin_overview.js"> </script>
+
+</head>
+<body>
+    <div class="header">
+        <h2><a href="#">E<sup>2</sup>MS</a></h2>
+    </div>
+    <div class="navbar">
+        <div class="nav-items">
+            <ul>
+                <li><a href="admin_overview.html" class="active">Overview</a></li>
+                <li><a href="admin_managevouch.php">Manage Vouchers</a></li>
+                <li><a href="admin_teams.html">Team</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="center">
+        <h1>System Overview</h1>
+    </div>
+    <div class="overview-container">
+        
+        <div class="stats">
+            <div class="stat-card">
+                <h2>Total Vouchers</h2>
+                <p>150</p>
+            </div>
+            <div class="stat-card">
+                <h2>Pending Approvals</h2>
+                <p>10</p>
+            </div>
+            <div class="stat-card">
+                <h2>Approved Vouchers</h2>
+                <p>120</p>
+            </div>
+            <div class="stat-card">
+                <h2>Rejected Vouchers</h2>
+                <p>20</p>
+            </div>
+        </div>
+        <div class="charts">
+            <div class="chart-card">
+                <h2>Approval Rate</h2>
+                <div class="chart-placeholder"></div>
+            </div>
+            <div class="chart-card">
+                <h2>Voucher Trends</h2>
+                <div class="chart-placeholder"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 E<sup>2</sup>MS | Admin Dashboard</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voucher Status</title>
+    <link rel="stylesheet" href="voucher_status.css">
+	<script src="voucher_status.js"> </script>
+</head>
+<body>
+    <div class="header">
+        <h2><a href="#">E<sup>2</sup>MS</a></h2>
+    </div>
+    <div class="navbar">
+        <div class="nav-items">
+            <ul>
+                <li><a href="voucher_entry.php">Voucher Entry</a></li>
+                <li><a href="draft_voucher.html">Draft Voucher</a></li>
+                <li><a href="voucher_status.html">Voucher Status</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Voucher Status</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Status</th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+            <tbody id="statusTable">
+                <tr>
+                    <td>2024-10-05</td>
+                    <td>Travel</td>
+                    <td>$200.00</td>
+                    <td class="status-approved">Approved</td>
+                    <td>Approved by Manager</td>
+                </tr>
+                <tr>
+                    <td>2024-09-25</td>
+                    <td>Office Supplies</td>
+                    <td>$120.00</td>
+                    <td class="status-pending">Pending</td>
+                    <td>Waiting for approval</td>
+                </tr>
+                <tr>
+                    <td>2024-09-20</td>
+                    <td>Meals</td>
+                    <td>$50.00</td>
+                    <td class="status-rejected">Rejected</td>
+                    <td>Receipt not attached</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

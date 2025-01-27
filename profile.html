@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="profile-container">
+        <h1>Employee Profile</h1>
+        
+        <div class="profile-card">
+            <div class="profile-header">
+                <img src="https://static.vecteezy.com/system/resources/previews/019/879/186/non_2x/user-icon-on-transparent-background-free-png.png" alt="Profile Picture" class="profile-pic">
+                <h2>John Doe</h2>
+                <p>Software Engineer</p>
+            </div>
+
+            <div class="profile-body">
+                <h3>Personal Information</h3>
+                <form id="profileForm">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" value="John Doe" disabled>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" value="john.doe@example.com">
+
+                    <label for="department">Department:</label>
+                    <input type="text" id="department" value="Engineering" disabled>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" value="+1234567890">
+                    
+                    <label for="address">Address:</label>
+                    <textarea id="address" rows="4">123 Street, City, Country</textarea>
+
+                    <button type="submit">Update Profile</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

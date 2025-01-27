@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="emp__dashboard.css">
+	<script src="emp_dashboard.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h2><a href="#">E<sup>2</sup>MS</a></h2>
+    </div>
+    <div class="navbar">
+        <div class="nav-items">
+            <ul>
+                <li><a href="voucher_entry.php">Voucher Entry</a></li>
+                <li><a href="draft_voucher.html">Draft Voucher</a></li>
+                <li><a href="voucher_status.html">Voucher Status</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="center">
+        <h1>Welcome, Employee</h1>
+        <p class="manage">Manage your expenses with <span class="fade-in-out">ease!</span></p>
+        <div class="summary">
+            <div class="expense">
+                <h2>Expense summary</h2>
+                <p>Total Submitted: $50000</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="slideshow-container">
+                <h2>Announcements</h2>
+                <div class="slideshow">
+                  <div class="announcement">
+                    <a href="#">Submit your monthly expense reports by the 25th of each month.</a>
+                  </div>
+                  <div class="announcement">
+                    <a href="#">Please review any rejected vouchers and resubmit them promptly.</a>
+                  </div>
+                  <div class="announcement">
+                    <a href="#">The new voucher approval workflow is now in effect.</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="recent">
+            <h3>Recent Transactions</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Category</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024-10-05</td>
+                        <td>Travel</td>
+                        <td>$200.00</td>
+                        <td class="status-approved">Approved</td>
+                    </tr>
+                    <tr>
+                        <td>2024-09-25</td>
+                        <td>Office Supplies</td>
+                        <td>$120.00</td>
+                        <td class="status-pending">Pending</td>
+                    </tr>
+                    <tr>
+                        <td>2024-09-20</td>
+                        <td>Meals</td>
+                        <td>$50.00</td>
+                        <td class="status-rejected">Rejected</td>
+                    </tr>
+                    <tr>
+                        <td>2024-09-10</td>
+                        <td>Client Meeting</td>
+                        <td>$300.00</td>
+                        <td class="status-approved">Approved</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>  
+</body>
+</html>

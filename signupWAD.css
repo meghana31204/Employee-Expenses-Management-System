@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #C4DAD2;
+    font-family: "Montserrat", system-ui;
+    color: #4A4A4A;
+}
+.main .signup_form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+.main .signup_form h2 {
+    text-align: center;
+    font-size: 60px;
+}
+.main .signup_form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.main .signup_form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #16423C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: px;
+    margin-top: 10px;
+}
+.main .signup_form button:hover {
+    background-color:#C4DAD2;
+	color:#16423C
+}
+.main .signup_form a {
+    display: block;
+    text-align: center;
+    color: black;
+}
+.main .signup_form a:hover {
+    text-decoration: underline;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}

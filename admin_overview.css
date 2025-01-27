@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body {
+    background-color: #C4DAD2;
+    color: #4A4A4A;
+    font-family: "Fredoka", sans-serif;
+    margin: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #4A4A4A;
+    color: white;
+}
+.header h2 a{
+    text-decoration: none;
+    color: white;
+}
+.header h2{
+    font-size: 60px;
+    margin: 20px 0px 20px 30px;   
+}
+.navbar{
+    background-color:#16423C;
+    height: 40px;
+}
+.nav-items{
+    padding: 5px;
+}
+.nav-items ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-items a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-items a:hover {
+    color: green;
+}
+.center h1{
+    font-size: 60px;
+    margin: 30px 0px 10px 0px;
+}
+.center{
+    margin: 10px 10px 10px 30px;
+}
+
+.center .manage {
+    font-size: 40px;
+    margin-top: 10px;
+}
+.overview-container {
+    margin: 20px auto;
+    max-width: 1400px;
+}
+
+.overview-container h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #16423C;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+}
+
+.stat-card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.stat-card p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1DB954;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.chart-card {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+}
+
+.chart-card h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.chart-placeholder {
+    background-color: #DDD;
+    height: 200px;
+    border-radius: 10px;
+    line-height: 200px;
+    color: #555;
+    font-size: 18px;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    background-color: #16423C;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.chart-placeholder {
+    width: 100%;
+    height: 300px; /* Adjust this as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-card h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
